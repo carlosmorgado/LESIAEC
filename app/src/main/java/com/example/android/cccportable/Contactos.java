@@ -42,7 +42,7 @@ public class Contactos extends AppCompatActivity {
         int count= 0;int r = 0;
         int l = 0;
         for (int i = 0; i < nomeEstudantino.length; i++) {
-            for (; r < nomeEstudantino[i].length() && nomeEstudantino[i].charAt(r)!='.' ; r++) {
+            for (; r < nomeEstudantino[i].length() && nomeEstudantino[i].charAt(r)!=' ' ; r++) {
             }
             try {
 
@@ -106,8 +106,9 @@ public class Contactos extends AppCompatActivity {
                 tuaMae.setMargins(32, 16, 32,16);
                 b[i].setLayoutParams(tuaMae);
                 nomeEstudantino[i]=in.next();
+                nomeEstudantino[i]= nomeEstudantino[i].replace('.',' ');
                 cellPhoneNumbers[i]=in.nextInt();
-                b[i].setText(nomeEstudantino[i]);
+                b[i].setText(nomeEstudantino[i].replace('_',' '));
                 b[i].setBackgroundColor(Color.WHITE);
                 Linhas.addView(b[i]);
             }
@@ -132,7 +133,7 @@ public class Contactos extends AppCompatActivity {
     private boolean searchByAlcunha(String nome) {
         for (int i = 0; i < alcunhas.length; i++) {
             if(alcunhas[i].length()<nome.length())continue;
-            if (alcunhas[i].substring(0,nome.length()).equalsIgnoreCase(nome)){
+            if (alcunhas[i].toUpperCase().indexOf(nome.toUpperCase())!=-1){
                 ((ScrollView)findViewById(R.id.scroll)).scrollTo((int)b[i].getX(),(int)b[i].getY());
                 return true;
             }
@@ -143,7 +144,7 @@ public class Contactos extends AppCompatActivity {
     private boolean searchByNomeDeEstudanntino(String nome) {
         for (int i = 0; i < nomeEstudantino.length; i++) {
             if (nomeEstudantino[i].length()<nome.length())continue;
-            if (nomeEstudantino[i].substring(0,nome.length()).equalsIgnoreCase(nome)){
+            if (nomeEstudantino[i].toUpperCase().indexOf(nome.toUpperCase())!=-1){
                 ((ScrollView)findViewById(R.id.scroll)).scrollTo((int) b[i].getX(), (int) b[i].getY());
                 return true;
             }
@@ -155,7 +156,7 @@ public class Contactos extends AppCompatActivity {
     private boolean searchByNome(String nome) {
         for (int i = 0; i < this.nome.length; i++) {
             if (this.nome[i].length()<nome.length())continue;
-            if (this.nome[i].substring(0,nome.length()).equalsIgnoreCase(nome)){
+            if (this.nome[i].toUpperCase().indexOf(nome.toUpperCase())!=-1){
                 ((ScrollView)findViewById(R.id.scroll)).scrollTo((int)b[i].getX(), (int) b[i].getY());
                 return true;
             }
@@ -166,7 +167,7 @@ public class Contactos extends AppCompatActivity {
     private boolean searchByApelido(String nome) {
         for (int i = 0; i < apelido.length; i++) {
             if(apelido[i].length()<nome.length())continue;
-            if (apelido[i].substring(0,nome.length()).equalsIgnoreCase(nome)){
+            if (apelido[i].toUpperCase().indexOf(nome.toUpperCase())!=-1){
                 ((ScrollView)findViewById(R.id.scroll)).scrollTo((int) b[i].getX(), (int) b[i].getY());
                 return true;
             }
@@ -176,12 +177,7 @@ public class Contactos extends AppCompatActivity {
     }
     private void spaceAlcunhas(){
         for (int i = 0; i <alcunhas.length ; i++) {
-                for(int j=0;j<alcunhas[i].length();++j){
-                    Str c = new Str(alcunhas[i]);
-                    if(alcunhas[i].charAt(j)=='_'){
-                        alcunhas[i]= c.change(j,' ');
-                    }
-                }
+                alcunhas[i]="\""+alcunhas[i].replace('_',' ')+"\"";
         }
     }
 }
