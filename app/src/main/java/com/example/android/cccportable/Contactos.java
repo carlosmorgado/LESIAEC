@@ -177,7 +177,7 @@ public class Contactos extends AppCompatActivity {
     }
     private void spaceAlcunhas(){
         for (int i = 0; i <alcunhas.length ; i++) {
-                alcunhas[i]=alcunhas[i].replace('_',' ');
+                alcunhas[i]="\""+alcunhas[i].replace('_',' ')+"\"";
         }
     }
 }
