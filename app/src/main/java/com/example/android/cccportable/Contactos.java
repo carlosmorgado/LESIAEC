@@ -155,7 +155,7 @@ public class Contactos extends AppCompatActivity {
     private boolean searchByNome(String nome) {
         for (int i = 0; i < this.nome.length; i++) {
             if (this.nome[i].length()<nome.length())continue;
-            if (this.nome[i].substring(1,nome.length()).equalsIgnoreCase(nome)){
+            if (this.nome[i].substring(0,nome.length()).equalsIgnoreCase(nome)){
                 ((ScrollView)findViewById(R.id.scroll)).scrollTo((int)b[i].getX(), (int) b[i].getY());
                 return true;
             }
