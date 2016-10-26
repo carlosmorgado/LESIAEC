@@ -1,4 +1,4 @@
-131
+133
 Afonso."Heidy".Rodrigues 962450870
 André."Mimosa".Pimenta 917018783
 André."Grande".Gomes 918114798
@@ -10,6 +10,7 @@ António."Morte_Lenta".Grade 932287264
 Bruno."Fardas".Pinho 911022919
 Bruno."Paste".Peixoto 917038834
 Bruno."Parvalhêra".Oliveira 969906162
+Bruno."Etiquetas".Faustino 915383211
 Celso."Kamikaze".Menaia 966551833
 Cláudio."Putin".Russo.93 934239759
 Cláudio."Putin".Russo.92 927998752
