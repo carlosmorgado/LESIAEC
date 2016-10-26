@@ -1,4 +1,4 @@
-132
+131
 Afonso."Heidy".Rodrigues 962450870
 André."Mimosa".Pimenta 917018783
 André."Grande".Gomes 918114798
@@ -19,7 +19,7 @@ Daniel."Freio".Teixeira 915696898
 David."Zelda".Lourenço 966709479
 David."Irmão_do_Marco".Pernes 910568778
 David."Abominavel".Neves 916955727
-David."Pastilha de".Ameixa 914944179
+David."Pastilha_de".Ameixa 914944179
 Diogo."Quem?".Ferreira 914068740
 Diogo."Dentinho".Fernandes 918122093
 Diogo."Hulk".Fernandes 911089909
@@ -33,7 +33,7 @@ Duarte."Madeirense".Pavão 912056592
 Fabio."Drama".Crespim 966573262
 Filipe."Técnico".Carapeto 914553333
 Flávio."Pescador".Almeida 969826025
-Francisco."Dona Chica".Lima 967598066
+Francisco."Dona_Chica".Lima 967598066
 Gonçalo."Selo".Teixeira 910480696
 Gonçalo."Mirra".Maia 964389922
 Gonçalo."Buggs".Coelho 918665895
