@@ -1,4 +1,4 @@
-126
+133
 Afonso."Heidy".Rodrigues 962450870
 André."Mimosa".Pimenta 917018783
 André."Grande".Gomes 918114798
@@ -10,6 +10,7 @@ António."Morte_Lenta".Grade 932287264
 Bruno."Fardas".Pinho 911022919
 Bruno."Paste".Peixoto 917038834
 Bruno."Parvalhêra".Oliveira 969906162
+Bruno."Etiquetas".Faustino 915383211
 Celso."Kamikaze".Menaia 966551833
 Cláudio."Putin".Russo.93 934239759
 Cláudio."Putin".Russo.92 927998752
@@ -19,6 +20,7 @@ Daniel."Freio".Teixeira 915696898
 David."Zelda".Lourenço 966709479
 David."Irmão_do_Marco".Pernes 910568778
 David."Abominavel".Neves 916955727
+David."Pastilha_de".Ameixa 914944179
 Diogo."Quem?".Ferreira 914068740
 Diogo."Dentinho".Fernandes 918122093
 Diogo."Hulk".Fernandes 911089909
@@ -26,12 +28,13 @@ Diogo."Fashion".Silva.96 963329690
 Diogo."Fashion".Silva.91 912515621
 Diogo."Mural".Vidigal.91 914228851
 Diogo."Mural".Vidigal.96 967025942
-Diogo."_".Baptista 912377649
+Diogo."Xopax".Baptista 912377649
 Diogo."Abel".Claudino 969862156
 Duarte."Madeirense".Pavão 912056592
 Fabio."Drama".Crespim 966573262
 Filipe."Técnico".Carapeto 914553333
 Flávio."Pescador".Almeida 969826025
+Francisco."Dona_Chica".Lima 967598066
 Gonçalo."Selo".Teixeira 910480696
 Gonçalo."Mirra".Maia 964389922
 Gonçalo."Buggs".Coelho 918665895
@@ -62,6 +65,7 @@ João."Clementino".Benedito.96 969389142
 João."Marquês_de_Pombal".Clemente 963460764
 João."Pistas".Pereira 917658025
 João."3/4_de_uma_esquina_oblica_berlites".Lopes 926106090
+João."_".Rocha 963636666
 Leonardo."DaVinte".Franciscatto 917958471
 Leonel."Narso".Alexandrino 964394400
 Levi."_".Galaio.93 934852098
@@ -70,6 +74,7 @@ Luis."Obrigado".Lopes.96 967433736
 Luis."Obrigado".Lopes.91 913417147
 Luis."Xabregas".Fernandes.96 962991560
 Luis."Xabregas".Fernandes.91 918136956
+Luis."Trastes".Pinhão 918559660
 Manuel."Nelo".Rocha.96 965719851
 Manuel."Nelo".Rocha.92 926958569
 Marco."Geodésico".Ribeiro.91 917288934
@@ -88,7 +93,8 @@ Nuno."Juba".Bento 912428754
 Nuno."CP".Filipe.92 927438036
 Nuno."CP".Filipe.91 919826059
 Nuno."_".Redondo 966591993
-Nuno."O_Cartaxo".Gaspar 918588339
+Nuno."Empilhador".Gaspar 918588339
+Nuno."_".Moura 965260819
 Paulo."Bino".Moreira 919618893
 Pedro."Lolita".Sarmento.91 917718038
 Pedro."Lolita".Sarmento.92 927756777
@@ -114,6 +120,7 @@ Rui."Magikarp".Martins.96 919205403
 Samuel."Bivalves".Freire 917422118
 Sérgio."Sergay".Magrinho 964560213
 Simão."Vaselina".Vicente 916500502
+Simão."_".Rodrigues 914098572
 Telmo."Tell_me".Miranda 933726055
 Tiago."Sandokan".Nunes 966896400
 Tiago."Joly".Duarte.91 914929645
